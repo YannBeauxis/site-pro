@@ -1,0 +1,21 @@
+---
+layout: default
+modal-id: 2
+date: 2016-12-01
+img: iris-logo-large.png
+alt: iris
+project-date: janvier à décembre 2016
+---
+IRIS est un prototype d'appli web sur la composition de mélange à base d'huiles essentielles.
+
+Le site a été développé en Ruby on Rails avec un peu de BackboneJS.
+
+Lien vers le site :
+  <a href="http://www.projet-iris.com/" target="_blank">
+  http://www.projet-iris.com/
+  </a>
+  <br />
+  Sur GitHub :
+  <a href="https://github.com/YannBeauxis/Iris" target="_blank">
+    https://github.com/YannBeauxis/Iris
+  </a>

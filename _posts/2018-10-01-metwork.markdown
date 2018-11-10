@@ -1,0 +1,28 @@
+---
+layout: default
+modal-id: 1
+date: 2018-10-01
+img: metwork-logo.png
+alt: metwork
+project-date: janvier à octobre 2018
+client: Université Paris Descartes
+---
+MetWork est une plateforme web open source de calcul en chimie des substances naturelles.
+
+J'ai développée la solution en Python avec Django et la JSON REST API pour le backend et EmberJS pour le frontend.
+La charge de calcul en chimie analytique est répartie sur 6 serveurs via un système de task management utilisant Celery et RabbitMQ.
+
+Le projet a fait l'objet d'une
+<a href="https://doi.org/10.1093/bioinformatics/bty864" target="_blank">
+publication dans la revue Bioinformatics
+</a>.
+
+Lien vers la plateforme :
+  <a href="https://metwork.pharmacie.parisdescartes.fr" target="_blank">
+  https://metwork.pharmacie.parisdescartes.fr
+  </a>
+  <br />
+  Sur GitHub :
+  <a href="https://github.com/metwork-project" target="_blank">
+    https://github.com/metwork-project
+  </a>
