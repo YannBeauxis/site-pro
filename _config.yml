@@ -2,10 +2,9 @@
 title: Yann Beauxis
 email: pro@yannbeauxis.net
 url: http://pro.yannbeauxis.net
-description: "Yann Beauxis developper web page"
-keywords: "developper, freelance, fullstack"
+description: "Yann Beauxis professional web page"
+keywords: "developper, freelance, fullstack, science, research, engineer"
 #"your keywords, separated by commas"
-skills: "Développeur Web Fullstack"
 meta_author: Beauxis Yann
 
 # Google webmaster tools
@@ -30,6 +29,10 @@ color:
   primary-rgb: "124,140,150" #"128,179,255"
   secondary: 237bb6 #FD6E8A
   secondary-dark: 0c2b40 #A2122F
+  third: b9823c
+  third-light: fff2d9
+  secondary-medium-rgb: "125,157,179"
+  third-dark: 80230c
 
 # Footer settings
 footer:

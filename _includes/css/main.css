@@ -17,12 +17,16 @@ p.small {
 }
 
 a,
-a:hover,
 a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #{{ site.color.secondary-dark }};
+    color: #{{ site.color.third }};
+}
+
+a:hover {
+    outline: 0;
+    color: #{{ site.color.third-dark }};
 }
 
 h1,
@@ -213,7 +217,7 @@ section.success {
     display: block;
     position: relative;
     margin: 0 auto;
-    max-width: 400px;
+    max-width: 350px;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
@@ -221,7 +225,7 @@ section.success {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba({{ site.color.primary-rgb }},.9);
+    background: rgba({{ site.color.secondary-medium-rgb }},.9);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -454,9 +458,23 @@ footer .footer-below {
     transform: rotate(90deg);
 }
 
+.navbar-header>.navbar-brand:focus,
+.nav.navbar-nav>li>a,
+.nav.navbar-nav>li>a:focus {
+    color: white;
+}
+
 .navbar-nav>.active>a {
-    color: #{{ site.color.secondary-dark }} !important;
+    color: #{{ site.color.third }} !important;
     background-color: #{{ site.color.secondary }} !important;
+}
+
+.navbar-nav>li>a:hover,
+.navbar-brand:hover,
+.navbar-nav>li>a:active,
+.navbar-brand:active
+ {
+    color: #{{ site.color.third-dark }} !important;
 }
 
 /* Fix modal mouse wheel issues */
@@ -469,4 +487,21 @@ footer .footer-below {
 .row.about p {
   margin-top: 18px;
   font-style: italic;
+}
+
+.fa.cv {
+  margin-right: 8px;
+}
+
+.btn.btn-third {
+  background-color: #{{ site.color.third }};
+  color: white;
+}
+
+.btn.btn-third:hover {
+  background-color: #{{ site.color.third-dark }};
+}
+
+.text-third {
+  color: #{{ site.color.third-dark }};
 }
