@@ -1,0 +1,2 @@
+bundle exec jekyll build
+rsync -ah --del --progress --exclude=.git --exclude=deploy.sh --exclude=serve.sh --exclude=Sinagot --exclude=tisanes /home/yann/Dev/pro.yannbeauxis.net/_site/ /home/yann/Dev/yannbeauxis.github.io/

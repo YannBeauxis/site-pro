@@ -1,0 +1,22 @@
+I"�<p>MetWork est une application web open source de calcul en chimie analytique.</p>
+
+<p>J’ai développé la solution en Python avec Django pour le backend et EmberJS pour le frontend.
+La charge de calcul en chimie analytique est répartie sur 6 serveurs via un système de task management utilisant Celery et RabbitMQ.</p>
+
+<p>Le projet a fait l’objet d’une
+<a href="https://doi.org/10.1093/bioinformatics/bty864" target="_blank">
+publication dans la revue Bioinformatics
+</a>.</p>
+
+<p>Lien vers l’application :
+  <a href="https://metwork.science" target="_blank">
+  https://metwork.science
+  </a>
+  <br />
+  Sur GitHub :
+  <a href="https://github.com/metwork-project" target="_blank">
+    https://github.com/metwork-project
+  </a></p>
+
+<p>EDIT : J’ai commencé une refonte complète de l’application sur une architecture en micro-services Docker/Kubernetes, des API basé sur FastAPI et un frontend en Vue.js.</p>
+:ET
